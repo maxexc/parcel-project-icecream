@@ -30,3 +30,12 @@ button {
   padding: 0;
   cursor: pointer;
 }
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
