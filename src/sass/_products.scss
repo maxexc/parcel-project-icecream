@@ -150,12 +150,12 @@ html {
   }
   transition: transform 550ms ease;
   &:hover {
-    transform: scale(1.02);
-    // @media screen and (min-width: 768px) {
-    //   transform: scale(1.02);
-    // }
+    transform: scale(1.1);
+    @media screen and (min-width: 768px) {
+      transform: scale(1.2);
+    }
     @media screen and (min-width: 1200px) {
-      transform: none;
+      transform: scale(1.16);
     }
   }
 }
